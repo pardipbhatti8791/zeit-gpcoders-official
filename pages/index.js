@@ -39,7 +39,6 @@ function HomenewPage(props) {
   };
 
   useEffect(() => {
-    console.log(featureWork);
     TweenMax.to(featureWork, 0.4, {
       opacity: 1,
       y: -20,
