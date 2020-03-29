@@ -39,6 +39,7 @@ function HomenewPage(props) {
   };
 
   useEffect(() => {
+    console.log(featureWork);
     TweenMax.to(featureWork, 0.4, {
       opacity: 1,
       y: -20,
@@ -76,28 +77,28 @@ function HomenewPage(props) {
                 <div className="bannerlogos">
                   <ul className="d-flex logo-list">
                     <li>
-                      <img src="/static/media/logo-sketch.png" />
+                      <img src="/static/media/logo-sketch.png" alt="img" />
                     </li>
                     <li>
-                      <img src="/static/media/logo-figma.png" />
+                      <img src="/static/media/logo-figma.png" alt="img" />
                     </li>
                     <li>
-                      <img src="/static/media/logo-studio.png" />
+                      <img src="/static/media/logo-studio.png" alt="img" />
                     </li>
                     <li>
-                      <img src="/static/media/logo-framer.png" />
+                      <img src="/static/media/logo-framer.png" alt="img" />
                     </li>
                     <li>
-                      <img src="/static/media/logo-react.png" />
+                      <img src="/static/media/logo-react.png" alt="img" />
                     </li>
                     <li>
-                      <img src="/static/media/logo-swift.png" />
+                      <img src="/static/media/logo-swift.png" alt="img" />
                     </li>
                     <li>
-                      <img src="/static/media/logo-android.png" />
+                      <img src="/static/media/logo-android.png" alt="img" />
                     </li>
                     <li>
-                      <img src="/static/media/logo-ios.png" />
+                      <img src="/static/media/logo-ios.png" alt="img" />
                     </li>
                   </ul>
                 </div>
@@ -135,7 +136,10 @@ function HomenewPage(props) {
             <div className="single-col">
               <div className="img-box">
                 <a href="#" target="_blank">
-                  <img src="/static/media/gpcodersimages/portfolio-img1.jpg" />
+                  <img
+                    src="/static/media/gpcodersimages/portfolio-img1.jpg"
+                    alt="img"
+                  />
                   <span className="title-text postive-sol">
                     Positive Solutions International
                   </span>
@@ -145,7 +149,10 @@ function HomenewPage(props) {
             <div className="single-col">
               <div className="img-box">
                 <a href="#" target="_blank">
-                  <img src="/static/media/gpcodersimages/portfolio-img2.jpg" />
+                  <img
+                    src="/static/media/gpcodersimages/portfolio-img2.jpg"
+                    alt="img"
+                  />
                   <span className="title-text opus">Opusbehavioural</span>
                 </a>
               </div>
@@ -153,7 +160,10 @@ function HomenewPage(props) {
             <div className="single-col">
               <div className="img-box">
                 <a href="#" target="_blank">
-                  <img src="/static/media/gpcodersimages/portfolio-img3.jpg" />
+                  <img
+                    src="/static/media/gpcodersimages/portfolio-img3.jpg"
+                    alt="img"
+                  />
                   <span className="title-text smartcurcumin">
                     Smartercurcumin{' '}
                   </span>
@@ -163,7 +173,10 @@ function HomenewPage(props) {
             <div className="single-col">
               <div className="img-box">
                 <a href="#" target="_blank">
-                  <img src="/static/media/gpcodersimages/portfolio-img4.jpg" />
+                  <img
+                    src="/static/media/gpcodersimages/portfolio-img4.jpg"
+                    alt="img"
+                  />
                   <span className="title-text weddingman">Weddingman</span>
                 </a>
               </div>
@@ -171,7 +184,10 @@ function HomenewPage(props) {
             <div className="single-col">
               <div className="img-box">
                 <a href="#" target="_blank">
-                  <img src="/static/media/gpcodersimages/portfolio-img1.jpg" />
+                  <img
+                    src="/static/media/gpcodersimages/portfolio-img1.jpg"
+                    alt="img"
+                  />
                   <span className="title-text postive-sol">
                     Positive Solutions International
                   </span>
@@ -181,7 +197,10 @@ function HomenewPage(props) {
             <div className="single-col">
               <div className="img-box">
                 <a href="#" target="_blank">
-                  <img src="/static/media/gpcodersimages/portfolio-img2.jpg" />
+                  <img
+                    src="/static/media/gpcodersimages/portfolio-img2.jpg"
+                    alt="img"
+                  />
                   <span className="title-text opus">Opusbehavioural</span>
                 </a>
               </div>

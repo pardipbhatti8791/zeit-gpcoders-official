@@ -68,6 +68,11 @@ class GpcodersNav extends React.Component {
               </Link>
               <div className="menuCon">
                 <Menu mode="horizontal" theme="dark">
+                  <Menu.Item key="1">
+                    <Link href="/about-us">
+                      <a href> About Us</a>
+                    </Link>
+                  </Menu.Item>
                   <Menu.Item key="2">
                     <Link href="/services">
                       <a href> Services</a>
@@ -99,13 +104,6 @@ class GpcodersNav extends React.Component {
                   onClose={this.onClose}
                   visible={this.state.navbarvisible}>
                   <ul className="navbar-nav">
-                    <li className="nav-item">
-                      <Link href="#">
-                        <a href className="nav-link">
-                          About Us
-                        </a>
-                      </Link>
-                    </li>
                     <li className="nav-item">
                       <Link href="/services">
                         <a href className="nav-link">
