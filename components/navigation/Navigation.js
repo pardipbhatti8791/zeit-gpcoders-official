@@ -68,9 +68,6 @@ class GpcodersNav extends React.Component {
               </Link>
               <div className="menuCon">
                 <Menu mode="horizontal" theme="dark">
-                  <Menu.Item key="1">
-                    <a href> About Us</a>
-                  </Menu.Item>
                   <Menu.Item key="2">
                     <Link href="/services">
                       <a href> Services</a>
