@@ -59,7 +59,7 @@ class GpcodersNav extends React.Component {
           <div className="HeaderMain d-flex align-items-center">
             <nav className="menuBar d-flex">
               <Link href="/">
-                <a href className="site-logo navbar-brand">
+                <a className="site-logo navbar-brand">
                   <img
                     src="/static/media/gpcodersimages/site-logo.png"
                     alt="Gp Coders"
@@ -67,30 +67,41 @@ class GpcodersNav extends React.Component {
                 </a>
               </Link>
               <div className="menuCon">
-                <Menu mode="horizontal" theme="dark">
-                  <Menu.Item key="1">
+                <ul className="navbar-nav">
+                  <li className="nav-item">
                     <Link href="/about-us">
-                      <a href> About Us</a>
+                      <a className="nav-link"> About Us</a>
                     </Link>
-                  </Menu.Item>
-                  <Menu.Item key="2">
+                  </li>
+                  <li className="nav-item">
                     <Link href="/services">
-                      <a href> Services</a>
+                      <a className="nav-link">
+                        Services
+                        </a>
                     </Link>
-                  </Menu.Item>
-                  <Menu.Item key="3">
-                    <a href> Our Work</a>
-                  </Menu.Item>
-                  <Menu.Item key="5">
+                  </li>
+                  <li className="nav-item">
+                    <Link href="#">
+                      <a className="nav-link">
+                        Our Work
+                        </a>
+                    </Link>
+                  </li>
+                  <li className="nav-item">
                     <Link href="/javascript">
-                      <a href> Javascript</a>
+                      <a className="nav-link">
+                        Javascript
+                        </a>
                     </Link>
-                  </Menu.Item>
-                  <Menu.Item key="4">
-                    <a href> Contact</a>
-                  </Menu.Item>
-                </Menu>
-
+                  </li>
+                  <li className="nav-item">
+                    <Link href="#">
+                      <a className="nav-link">
+                        Contact
+                        </a>
+                    </Link>
+                  </li>
+                </ul>
                 <Button
                   className="mobilebarsMenu"
                   type="primary"
@@ -105,29 +116,34 @@ class GpcodersNav extends React.Component {
                   visible={this.state.navbarvisible}>
                   <ul className="navbar-nav">
                     <li className="nav-item">
+                      <Link href="/about-us">
+                        <a className="nav-link"> About Us</a>
+                      </Link>
+                    </li>
+                    <li className="nav-item">
                       <Link href="/services">
-                        <a href className="nav-link">
+                        <a className="nav-link">
                           Services
                         </a>
                       </Link>
                     </li>
                     <li className="nav-item">
                       <Link href="#">
-                        <a href className="nav-link">
+                        <a className="nav-link">
                           Our Work
                         </a>
                       </Link>
                     </li>
                     <li className="nav-item">
                       <Link href="/javascript">
-                        <a href className="nav-link">
+                        <a className="nav-link">
                           Javascript
                         </a>
                       </Link>
                     </li>
                     <li className="nav-item">
                       <Link href="#">
-                        <a href className="nav-link">
+                        <a className="nav-link">
                           Contact
                         </a>
                       </Link>

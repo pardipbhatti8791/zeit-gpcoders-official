@@ -1,0 +1,55 @@
+.about-banner .pagebanner-text{
+    max-width: 50rem;
+}
+.about-banner{
+     background: url('/static/media/gpcodersimages/about-banner.jpg')
+}
+.about-intro-sec{
+    background: url('/static/media/gpcodersimages/about-introbg.png') no-repeat bottom right;
+    background-size: auto 75%;
+   
+}
+.about-intro-sec .intro-text {
+    max-width: 88rem;
+}
+.why-choose-us .choose-box {
+    box-shadow: 0 0 25px rgba(0,0,0,0.1);
+    background:  url('/static/media/gpcodersimages/our-expertise.jpg') no-repeat center;
+     background-size: cover;
+}
+.why-choose-us .choose-box .text-box{
+    background: #fff;padding: 4rem 4rem 2rem;
+    font-size: 1.6rem;
+}
+.list-icon{
+    margin-bottom: 2rem;
+}
+.list-icon li{
+    position: relative;
+    padding-left: 2.5rem;
+    margin-bottom: 1rem;
+}
+.list-icon li:before {
+    content: '\F058';
+    position: absolute;
+    left: 0;
+    top: -1px;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    color: #eb4552;
+}
+@media(max-width:1120px){
+    .about-intro-sec {
+      background: none;
+    }
+    .about-intro-sec .intro-text {
+    max-width: 100%
+}
+
+}
+@media(max-width:767px){
+    .why-choose-us .choose-box .text-box {
+        padding: 3rem 3rem 1rem;
+        font-size: 2rem;
+    }
+}

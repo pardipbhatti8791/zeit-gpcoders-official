@@ -33,10 +33,10 @@ function JavascriptPage(props) {
       <div className="whyjs-sec text-center sec-padding">
         <div className="container">
           <div className="text-center max-width86 pb-5">
-            <h1 class="widget-title">
+            <h1 className="widget-title">
               Lorem Ipsum is simply dummy text of the printing
             </h1>
-            <p class="font-24">
+            <p className="font-24">
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text
               ever since the 1500s, when an unknown printer took a galley of.
@@ -116,7 +116,7 @@ function JavascriptPage(props) {
                   </div>
                   <div className="col-lg-9 col-md-8">
                     <div className="textbox">
-                      <h3 class="sub-heading font-900 text-uppercase">
+                      <h3 className="sub-heading font-900 text-uppercase">
                         Vanilla Js
                       </h3>
                       <p>
@@ -190,8 +190,8 @@ function JavascriptPage(props) {
               </div>
               <div className="tabcompany-sec">
                 <div className="text-center max-width86 pb-5">
-                  <h1 class="widget-title">Companies using Vanilla Js</h1>
-                  <p class="font-24">
+                  <h1 className="widget-title">Companies using Vanilla Js</h1>
+                  <p className="font-24">
                     Lorem Ipsum is simply dummy text of the printing and
                     typesetting industry. Lorem Ipsum has been the industry's
                     standard dummy text ever since the 1500s, when an unknown
@@ -258,7 +258,7 @@ function JavascriptPage(props) {
                   </div>
                   <div className="col-lg-9 col-md-8">
                     <div className="textbox">
-                      <h3 class="sub-heading font-900 text-uppercase">
+                      <h3 className="sub-heading font-900 text-uppercase">
                         Angular Js
                       </h3>
                       <p>
@@ -323,7 +323,7 @@ function JavascriptPage(props) {
                   </div>
                   <div className="col-lg-9 col-md-8">
                     <div className="textbox">
-                      <h3 class="sub-heading font-900 text-uppercase">
+                      <h3 className="sub-heading font-900 text-uppercase">
                         React Js
                       </h3>
                       <p>
@@ -388,7 +388,7 @@ function JavascriptPage(props) {
                   </div>
                   <div className="col-lg-9 col-md-8">
                     <div className="textbox">
-                      <h3 class="sub-heading font-900 text-uppercase">
+                      <h3 className="sub-heading font-900 text-uppercase">
                         Vue Js
                       </h3>
                       <p>
@@ -453,7 +453,7 @@ function JavascriptPage(props) {
                   </div>
                   <div className="col-lg-9 col-md-8">
                     <div className="textbox">
-                      <h3 class="sub-heading font-900 text-uppercase">
+                      <h3 className="sub-heading font-900 text-uppercase">
                         Node Js
                       </h3>
                       <p>

@@ -308,6 +308,7 @@ function HomenewPage(props) {
         </div>
         <Wave />
       </div>
+
       <div className="custom-sol-sec sec-paddingfull">
         <div className="container">
           <div className="text-center max-width86">
@@ -327,7 +328,7 @@ function HomenewPage(props) {
             </div>
             <div className="col-md-6">
               <div className="textbox">
-                <h2 className="sub-heading font-900">Web Development</h2>
+                <h2 className="sub-heading font-900">UI/UX Design</h2>
                 <p>
                   Lorem Ipsum is simply dummy text of the printing and
                   typesetting industry. Lorem Ipsum has been the industry's
@@ -363,7 +364,7 @@ function HomenewPage(props) {
             </div>
             <div className="col-md-6">
               <div className="textbox">
-                <h2 className="sub-heading font-900">Web Development</h2>
+                <h2 className="sub-heading font-900">Mobile App Development </h2>
                 <p>
                   Lorem Ipsum is simply dummy text of the printing and
                   typesetting industry. Lorem Ipsum has been the industry's
@@ -379,7 +380,7 @@ function HomenewPage(props) {
         <div className="container">
           <div className="process-box text-center ">
             <h3 className="small-tag text-white mb-3">PROCESS</h3>
-            <h1 className="widget-title font-300 text-white">
+            <h1 className="widget-title font-300  font-50 text-white">
               We Focus on <strong className="font-900">Quality</strong>
               That Keeps Customer Coming back
             </h1>

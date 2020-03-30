@@ -95,7 +95,9 @@ li {
   margin-bottom: 2rem;
   opacity: 1;
 }
-
+.font-50, .font-50.widget-title {
+  font-size: 5rem;
+}
 .sub-heading {
   font-size: 3rem;
   font-weight: 300;
@@ -154,6 +156,10 @@ li {
 .bannerlogos {
   max-width: 60rem;
   float: right;
+}
+.home-banner .logo-list li {
+    padding: 1rem 1.5rem;
+    flex-grow: 1;
 }
 .bannerlogos-sec .sub-heading {
   text-align: left;
@@ -318,7 +324,7 @@ li {
 .quality-sec {
   background: url('/static/media/gpcodersimages/b-w-bg2.jpg') no-repeat center
     bottom;
-  padding: 25rem 0;
+  padding: 17rem 0;
   position: relative;
   z-index: 2;
   background-size: cover;
@@ -370,9 +376,10 @@ li {
     padding-top: 30vh;
     padding-bottom: 15vh;
   }
-  .widget-title {
+  .widget-title, .font-50.widget-title, .font-50 {
     font-size: 4rem;
   }
+
   body {
     font-size: 1.7rem;
     line-height: 1.7;
@@ -394,7 +401,7 @@ li {
   .technology-sec .iconbox {
     padding: 3rem 2rem 2rem;
   }
-  .widget-title {
+  .widget-title, .font-50.widget-title, .font-50 {
     font-size: 3.5rem;
   }
 
@@ -446,7 +453,7 @@ li {
     padding-top: 20vh;
     padding-bottom: 7vh;
   }
-  .widget-title {
+  .widget-title, .font-50.widget-title, .font-50 {
     font-size: 2.8rem;
   }
   html {

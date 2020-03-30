@@ -67,23 +67,23 @@ class FooterPage extends React.Component {
               <div className="col-md-6">Copyright &copy; 2020 GPcoders</div>
               <div className="col-md-6">
                 <div className="social">
-                  <Link>
-                    <a href target="_blank">
+                  <Link href="/">
+                    <a>
                       <i className="fab fa-facebook-f" />
                     </a>
                   </Link>
-                  <Link>
-                    <a href target="_blank">
+                  <Link href="/">
+                    <a>
                       <i className="fab fa-twitter" />
                     </a>
                   </Link>
-                  <Link>
-                    <a href target="_blank">
+                  <Link href="/">
+                    <a>
                       <i className="fab fa-instagram" />
                     </a>
                   </Link>
-                  <Link>
-                    <a href target="_blank">
+                  <Link href="/">
+                    <a>
                       <i className="fab fa-linkedin-in" />
                     </a>
                   </Link>

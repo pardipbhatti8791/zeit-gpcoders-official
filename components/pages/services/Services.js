@@ -14,7 +14,7 @@ function ServicesPage(props) {
               simply dummy and typesetting industry.{' '}
             </p>
             <p>
-              <a href className="btn btn-outline-secondary">
+              <a className="btn btn-outline-secondary">
                 Contact Us
               </a>
             </p>
