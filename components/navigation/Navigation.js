@@ -11,7 +11,7 @@ class GpcodersNav extends React.Component {
     window.addEventListener('scroll', this.handleScroll);
   }
 
-  handleScroll = event => {
+  handleScroll = (event) => {
     const scrollTop = window.pageYOffset;
     if (scrollTop > 50) {
       this.setState({ hasScrolled: true });
@@ -35,14 +35,14 @@ class GpcodersNav extends React.Component {
     });
   };
 
-  handleOk = e => {
+  handleOk = (e) => {
     console.log(e);
     this.setState({
       visible: false
     });
   };
 
-  handleCancel = e => {
+  handleCancel = (e) => {
     console.log(e);
     this.setState({
       visible: false
@@ -75,30 +75,27 @@ class GpcodersNav extends React.Component {
                   </li>
                   <li className="nav-item">
                     <Link href="/services">
-                      <a className="nav-link">
-                        Services
-                        </a>
+                      <a className="nav-link">Services</a>
                     </Link>
                   </li>
                   <li className="nav-item">
                     <Link href="#">
-                      <a className="nav-link">
-                        Our Work
-                        </a>
+                      <a className="nav-link">Our Work</a>
                     </Link>
                   </li>
                   <li className="nav-item">
                     <Link href="/javascript">
-                      <a className="nav-link">
-                        Javascript
-                        </a>
+                      <a className="nav-link">Javascript</a>
                     </Link>
                   </li>
                   <li className="nav-item">
-                    <Link href="#">
-                      <a className="nav-link">
-                        Contact
-                        </a>
+                    <Link href="/contact">
+                      <a className="nav-link">Contact</a>
+                    </Link>
+                  </li>
+                  <li className="nav-item">
+                    <Link href="/covid-19">
+                      <a className="nav-link">Covid 19</a>
                     </Link>
                   </li>
                 </ul>
@@ -122,30 +119,27 @@ class GpcodersNav extends React.Component {
                     </li>
                     <li className="nav-item">
                       <Link href="/services">
-                        <a className="nav-link">
-                          Services
-                        </a>
+                        <a className="nav-link">Services</a>
                       </Link>
                     </li>
                     <li className="nav-item">
                       <Link href="#">
-                        <a className="nav-link">
-                          Our Work
-                        </a>
+                        <a className="nav-link">Our Work</a>
                       </Link>
                     </li>
                     <li className="nav-item">
                       <Link href="/javascript">
-                        <a className="nav-link">
-                          Javascript
-                        </a>
+                        <a className="nav-link">Javascript</a>
                       </Link>
                     </li>
                     <li className="nav-item">
                       <Link href="#">
-                        <a className="nav-link">
-                          Contact
-                        </a>
+                        <a className="nav-link">Contact</a>
+                      </Link>
+                    </li>
+                    <li className="nav-item">
+                      <Link href="/covid-19">
+                        <a className="nav-link">Covid 19</a>
                       </Link>
                     </li>
                   </ul>

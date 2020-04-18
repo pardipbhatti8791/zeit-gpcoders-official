@@ -12,6 +12,8 @@ import '../styles/about.css';
 import '../styles/gpcoders_nav.css';
 import '../styles/footer.css';
 import '../styles/FooterPage.css';
+import '../styles/contact.css';
+import '../styles/covid.css';
 
 export default function MyApp({ Component, pageProps }) {
   return (

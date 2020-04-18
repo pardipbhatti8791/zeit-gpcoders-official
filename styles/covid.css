@@ -1,0 +1,51 @@
+.page-banner.covid-banner { 
+    background: url(/static/media/gpcodersimages/covid-19.jpg) no-repeat center;
+}
+.ant-card{
+    font-weight: 400;
+     border-radius: 4px;
+}
+.ant-card-head{
+font-size: 2rem;
+}
+
+.covid-count {
+    font-size: 3rem;
+    font-weight: 900;
+}
+.countrypicker-box {
+    display: flex;
+    color: #fff;
+    background: #eb4552;
+    padding: 2rem;
+    align-items: center;
+}
+.countrypicker-box label{
+    margin:0px 10px;
+}
+.countrypicker-box .ant-select:not(.ant-select-disabled):hover .ant-select-selector {
+    border-color: transparent;
+    border-right-width: 1px !important;
+}
+.confirmed-card{
+    background: rgba(255,7,58,.12549);
+  
+    color: rgba(255,7,58,.6);
+}
+.confirmed-card .ant-card-head-title{
+    color: rgba(255,7,58,.6);
+}
+.recovered-card{
+    background: rgba(40,167,69,.12549);
+    color: #28a745;
+}
+.recovered-card .ant-card-head-title{
+    color: #28a745;
+}
+.death-card{
+    background: rgba(108,117,125,.0627451);
+    color:#6c757d;
+}
+.death-card .ant-card-head-title{
+    color:#6c757d
+}

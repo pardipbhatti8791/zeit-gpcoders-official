@@ -1,0 +1,47 @@
+b, strong {
+    font-weight: 700;
+}
+.contactpage-info-row .single-col{
+margin-bottom: 3rem;
+}
+.contactpage-form-row{
+    background: url('/static/media/gpcodersimages/contactpagebg.png') repeat-y
+    top;
+    background-size: 100% auto;
+}
+.font-30{
+    font-size: 30px;line-height: 1.2;
+}
+.large-heading {
+    font-size: 10rem;
+    line-height: 1;
+    font-weight: 100;
+    margin-bottom: 2rem;
+}
+.contactpage-form-row .form-control{
+    background:transparent;
+    font-size: 16px;
+    border: 0;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    font-weight: 300;
+}
+.contactpage-form-row ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #fff;
+  opacity: 1; /* Firefox */
+}
+.contact-map{
+    line-height: 0;
+}
+.contactpage-form-row :-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: #fff;
+}
+
+.contactpage-form-row ::-ms-input-placeholder { /* Microsoft Edge */
+    color: #fff;
+}
+@media(max-width:767px){
+    .contactpage-form-row{
+    background: #EB4552;
+    }
+}

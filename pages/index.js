@@ -135,7 +135,7 @@ function HomenewPage(props) {
           <Slider {...settings}>
             <div className="single-col">
               <div className="img-box">
-                <a href="#" target="_blank">
+                <a href="/" target="_blank">
                   <img
                     src="/static/media/gpcodersimages/portfolio-img1.jpg"
                     alt="img"
@@ -148,7 +148,7 @@ function HomenewPage(props) {
             </div>
             <div className="single-col">
               <div className="img-box">
-                <a href="#" target="_blank">
+                <a href="/" target="_blank">
                   <img
                     src="/static/media/gpcodersimages/portfolio-img2.jpg"
                     alt="img"
@@ -159,7 +159,7 @@ function HomenewPage(props) {
             </div>
             <div className="single-col">
               <div className="img-box">
-                <a href="#" target="_blank">
+                <a href="/" target="_blank">
                   <img
                     src="/static/media/gpcodersimages/portfolio-img3.jpg"
                     alt="img"
@@ -172,7 +172,7 @@ function HomenewPage(props) {
             </div>
             <div className="single-col">
               <div className="img-box">
-                <a href="#" target="_blank">
+                <a href="/" target="_blank">
                   <img
                     src="/static/media/gpcodersimages/portfolio-img4.jpg"
                     alt="img"
@@ -183,7 +183,7 @@ function HomenewPage(props) {
             </div>
             <div className="single-col">
               <div className="img-box">
-                <a href="#" target="_blank">
+                <a href="/" target="_blank">
                   <img
                     src="/static/media/gpcodersimages/portfolio-img1.jpg"
                     alt="img"
@@ -196,7 +196,7 @@ function HomenewPage(props) {
             </div>
             <div className="single-col">
               <div className="img-box">
-                <a href="#" target="_blank">
+                <a href="/" target="_blank">
                   <img
                     src="/static/media/gpcodersimages/portfolio-img2.jpg"
                     alt="img"
